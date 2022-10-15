@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Assigment 1</title>
+    <style>
+        body {
+            background-color: rgb(238, 229, 229);
+        }
+
+        @media screen and (min-width : 374px) and (max-width : 600px) {
+            body {
+
+                background-color: rgb(238, 229, 229);
+            }
+
+            .topcontainer {
+                text-align: center;
+                background-color: blue;
+                padding-bottom: 70px;
+            }
+
+            nav a {
+                background-color: aliceblue;
+
+            }
+
+            .btn2 {
+                text-align: center;
+                border-radius: 15px;
+                text-decoration: none;
+                padding: 10px 118px 10px 118px;
+                border: black 1px solid;
+                overflow: none;
+            }
+
+            .btn1 {
+                text-align: center;
+                border-radius: 15px;
+                text-decoration: none;
+                padding: 10px 110px 10px 110px;
+                border: black 1px solid;
+                overflow: none;
+            }
+        }
+
+        @media screen and (min-width : 600px) and (max-width : 1030px) {
+            body {
+
+                background-color: rgb(192, 176, 176);
+            }
+
+            .topcontainer {
+                text-align: center;
+                background-color: rgb(192, 176, 176);
+                padding-bottom: 70px;
+
+            }
+
+            nav a {
+                background-color: aliceblue;
+
+            }
+
+            .btn2 {
+                text-align: center;
+                border-radius: 15px;
+                text-decoration: none;
+                padding: 10px 218px 10px 218px;
+                border: black 1px solid;
+                overflow: none;
+            }
+
+            .btn1 {
+                text-align: center;
+                border-radius: 15px;
+                text-decoration: none;
+                padding: 10px 210px 10px 210px;
+                border: black 1px solid;
+                overflow: none;
+            }
+            .con2
+            {
+                float:right;
+                width:70%;
+                height:280px;
+            }
+            .con1
+            {
+                float:left; 
+                width:30%;
+                height:280px;
+            }
+            
+            
+            * {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row
+{
+    
+  border: 1px solid black;
+  height: 130px;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  border: 1px solid black;
+}
+.row2
+{
+    text-align: end;
+    
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topcontainer">
+        <h1>Web Design is Awesome </h1>
+        <nav>
+            <button class="btn1">
+                <a href="">University of Michgian</a>
+            </button> <br><br>
+            <button class="btn2">
+                <a href="">Intro to Web Design</a>
+            </button>
+        </nav>
+    </div>
+    <div class="midcontainer">
+    <div class="con1">
+        <h3>
+            Why I am taking this class
+        </h3>
+        <ol>
+            <li>It is required</li>
+
+            <li>My moms wants a webpage</li>
+            <li>I already know it.</li>
+        </ol>
+    </div>
+    <div class="con2">
+        <h3>
+            Why I am at University of Michgian 
+        </h3>    
+        <div class="row">
+        <div class="column"><h4>Ann Arbor</h4> 
+            
+            There are many excelent reasons</div>
+        
+            <div class="column">to attend the <a href="" >University of Michgian </a>
+            The academics are top-notch, the students are exceptionally good looking,and
+            </div>
+            <div class="column">
+                for about six weeks out of the year weather was pleasant.
+            </div>
+    
+        </div>
+
+    <div class="row2">
+        <div class="column2">
+          <img src="flywheel.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column2">
+          <img src="flywheel.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column2">
+          <img src="flywheel.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column2">
+            <img src="flywheel.jpg" alt="Mountains" style="width:100%">
+          </div>
+      </div>
+      SAMPLE CODE WITH RESPONSIVE DESIGN
+      COLEEN VEN LENT
+</div>
+</div>
+</body>
+
+</html>
